@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "pngwin",
+  "version": "0.1.0",
+  "description": "Force Twitter images to PNG and remove resolution params.",
+  "permissions": ["webRequest", "webRequestBlocking"],
+  "host_permissions": ["*://pbs.twimg.com/*"],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
